@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: natujenge-frontend
+spec:
+  selector:
+    app: natujenge-frontend
+  ports:
+  - port: 80
+    targetPort: 80
